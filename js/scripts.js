@@ -1,9 +1,9 @@
 // plik scripts.js
-
+/*
 var name = prompt('Wpisz swoje imię');
 alert('Witaj, ' + name);
 console.log('Witaj, ' + name);
-
+*/
 //zadanie 8.5
 
 var a = 3
@@ -21,3 +21,13 @@ if (value = 0) {
 	console.log ('wynik zerowy')
 }
 
+// zadanie 8.5 druga część
+
+var a = 5;
+var b = 6;
+var value = (a*a) + (2 * a * b) - (b*b);
+if (value > 0) {
+	console.log("wynik dodatni");
+} else {
+	console.log("wynik ujemny lub zerowy");
+}
